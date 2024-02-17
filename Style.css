@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', open-sans;
+    line-height: 1.5;
+    font-size: 18px;
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+
+header,
+main {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    width: 5100%px;
+    margin: auto;
+    text-align: center;
+}
+
+header,
+.con {
+    padding: 50px 100px;
+}
+
+header img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(212, 10%, 33%);
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsla(212, 10%, 33%, 0.576);
+    letter-spacing: -1px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px;
+    color: white;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+}
+
+button {
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 390px 100px 300px;
+    text-align: left;
+
+}
+
+.conc {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.content1 img {
+    margin-left: -500px;
+}
+
+.content1 div {
+    margin: 0px 0px 0px 100px;
+}
+
+.content1 h3 {
+    margin-top: 30px;
+}
+
+.content2 {
+    width: 600px;
+    margin: auto;
+}
+
+.content2 img {
+    margin-top: 100px;
+}
+
+.content3 {
+    display: flex;
+    margin-top: 50px;
+    width: 1000px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+
+.content3 div {
+    margin-right: 100px;
+}
+
+.content4 img {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    padding: 40px;
+    line-height: 2;
+    justify-content: space-around;
+    background-color: rgb(237, 227, 227);
+    color: hsla(212, 10%, 33%, 0.576);
+}
+
+footer img {
+    width: 40px;
+}
+
+footer .social i {
+    margin-left: 10px;
+    color: rgb(42, 40, 40);
+}
+
+@media (max-width :800px) {
+    img{
+        width: 50%;
+    }
+}
